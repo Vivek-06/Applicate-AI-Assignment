@@ -7,13 +7,13 @@ Assignment for Applicate IT Solutions
 * After first step, update or change mysql properties in application.properties like url, username and password.
 * If you are using postman software , please use json body format. Here are some sample format:
     * For search the name:
-        Markup :  ___http://localhost:8080/api/catalog/get___ 
+        ___http://localhost:8080/api/catalog/get___ 
 
-        ` 
+        ``` 
             {
                 "keyword": "ing",
                 "supplierName" : "SUPPLIER_A"
-            }`
+            }```
 
     * For create catalogues:
         Markup :  ___http://localhost:8080/api/catalog/post___
