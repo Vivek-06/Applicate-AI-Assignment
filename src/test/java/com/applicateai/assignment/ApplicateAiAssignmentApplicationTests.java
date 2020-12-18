@@ -23,20 +23,10 @@ import static org.junit.Assert.assertNotNull;
 public class ApplicateAiAssignmentApplicationTests {
 
     @Autowired
-    private TestRestTemplate restTemplate;
-
-    @Autowired
     private CatalogService catalogService;
 
     @Autowired
     private CatalogRepository catalogRepository;
-
-    @LocalServerPort
-    private int port;
-
-    private String getRootUrl() {
-        return "http://localhost:" + port;
-    }
 
     @Test
     public void contextLoads() {
