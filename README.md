@@ -13,12 +13,13 @@ Assignment for Applicate IT Solutions
             {
                 "keyword": "ing",
                 "supplierName" : "SUPPLIER_A"
-            }```
+            }
+        `
 
     * For create catalogues:
-        Markup :  ___http://localhost:8080/api/catalog/post___
+        ___http://localhost:8080/api/catalog/post___
 
-        ` 
+        ```
             {
                 "name": "Bingo 200gm",
                 "description": "It contains 200gm snacks which price is Rs 5.00",
@@ -31,9 +32,9 @@ Assignment for Applicate IT Solutions
             }`
 
     * For create Supplier:
-         Markup :  ___http://localhost:8080/api/supplier/post___
+           ___http://localhost:8080/api/supplier/post___
 
-        `
+        ```
             {
                 "name": "SUPPLIER_C"
             }`
